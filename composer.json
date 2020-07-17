@@ -3,7 +3,7 @@
     "keywords": ["redis", "polyfill"],
     "description": "No-implementation redis extension polyfill",
     "type": "library",
-    "license": "GPL3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Hugo Sales",
