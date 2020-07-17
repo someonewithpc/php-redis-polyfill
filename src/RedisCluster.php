@@ -1,5 +1,7 @@
 <?php
 
-class RedisCluster extends Redis
-{
+if (!class_exists('RedisCluster')) {
+    class RedisCluster extends Redis
+    {
+    }
 }

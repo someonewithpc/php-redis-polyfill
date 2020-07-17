@@ -1,5 +1,7 @@
 <?php
 
-class RedisSentinel extends Redis
-{
+if (!class_exists('RedisSentinel')) {
+    class RedisSentinel extends Redis
+    {
+    }
 }
