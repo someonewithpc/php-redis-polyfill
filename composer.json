@@ -1,0 +1,13 @@
+{
+    "name": "someonewithpc/redis-polyfill",
+    "description": "No-implementation redis extension polyfill",
+    "type": "library",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Hugo Sales",
+            "email": "hugo@fc.up.pt"
+        }
+    ],
+    "require": {}
+}
