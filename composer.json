@@ -1,5 +1,6 @@
 {
     "name": "someonewithpc/redis-polyfill",
+    "keywords": ["redis", "polyfill"],
     "description": "No-implementation redis extension polyfill",
     "type": "library",
     "license": "GPL3",
@@ -9,5 +10,10 @@
             "email": "hugo@fc.up.pt"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "\\": "src"
+        }
+    }
 }
